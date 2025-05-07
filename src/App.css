@@ -1,38 +1,64 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+input[type="range"] {
+  width: 300px;
+  margin: 10px 0;
+}
+
+input[type="number"] {
+  width: 100px;
+  margin-left: 10px;
+}
+
+label {
+  font-size: 0.9rem;
+  margin-right: 15px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #1976d2;
   color: white;
+  border: none;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #125ea6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+svg {
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  background: lightgray;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  pointer-events: none;
+  border: 1px solid #999;
+  z-index: 10;
 }
