@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cs350Project/static/css/main.3f1ca6be.css",
+    "main.js": "/cs350Project/static/js/main.33ada841.js",
+    "static/media/heart_data.csv": "/cs350Project/static/media/heart_data.1e1f11b5f9090a9a511a.csv",
+    "index.html": "/cs350Project/index.html",
+    "main.3f1ca6be.css.map": "/cs350Project/static/css/main.3f1ca6be.css.map",
+    "main.33ada841.js.map": "/cs350Project/static/js/main.33ada841.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1ca6be.css",
+    "static/js/main.33ada841.js"
+  ]
+}
